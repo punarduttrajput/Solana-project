@@ -11,7 +11,7 @@ export function MarkAttendanceCreate() {
       onClick={() => greet.mutateAsync(Keypair.generate())}
       disabled={greet.isPending}
     >
-      Run program{greet.isPending && '...'}
+      Mark{greet.isPending && '...'}
     </button>
   );
 }
@@ -34,7 +34,7 @@ export function MarkAttendanceProgram() {
   }
   return (
     <div className={'space-y-6'}>
-      <pre>{JSON.stringify(getProgramAccount.data.value, null, 2)}</pre>
+      {/* <pre>{JSON.stringify(getProgramAccount.data.value, null, 2)}</pre> */}
     </div>
   );
 }

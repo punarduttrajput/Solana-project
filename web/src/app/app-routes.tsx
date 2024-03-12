@@ -14,8 +14,8 @@ const MarkAttendanceFeature = lazy(() => import('./mark-attendance/mark-attendan
 const links: { label: string; path: string }[] = [
   { label: 'Account', path: '/account' },
   { label: 'Clusters', path: '/clusters' },
-  { label: 'CoinClock Program', path: '/coin-clock' },
-    { label: 'MarkAttendance Program', path: '/mark-attendance' },
+  // { label: 'CoinClock', path: '/coin-clock' },
+    { label: 'MarkAttendance', path: '/mark-attendance' },
 ];
 
 const routes: RouteObject[] = [

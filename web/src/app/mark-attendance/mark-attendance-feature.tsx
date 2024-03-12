@@ -12,10 +12,10 @@ export default function MarkAttendanceFeature() {
 
   return publicKey ? (
     <div>
-      <AppHero title="MarkAttendance" subtitle={'Run the program by clicking the "Run program" button.'}>
-        <p className="mb-6">
+      <AppHero title="Mark Attendance" subtitle={'Mark the attendance by clicking the "Mark" button.'}>
+        {/* <p className="mb-6">
           <ExplorerLink path={`account/${programId}`} label={ellipsify(programId.toString())} />
-        </p>
+        </p> */}
         <MarkAttendanceCreate />
       </AppHero>
       <MarkAttendanceProgram />
