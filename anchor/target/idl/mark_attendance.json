@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "name": "mark_attendance",
+  "instructions": [
+    {
+      "name": "greet",
+      "accounts": [],
+      "args": []
+    }
+  ],
+  "metadata": {
+    "address": "6TfP6s4vbSHGuT3R5yZYJ4keDUWhbY8LtUF69Hotbwn4"
+  }
+}
