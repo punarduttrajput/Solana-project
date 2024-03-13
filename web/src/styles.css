@@ -11,7 +11,7 @@ body,
   height: 100%;
 }
 .wallet-adapter-button-trigger {
-  background: rgb(100, 26, 230) !important;
+  background: rgb(12, 19, 121) !important;
   border-radius: 8px !important;
   padding-left: 16px !important;
   padding-right: 16px !important;
@@ -19,4 +19,68 @@ body,
 .wallet-adapter-dropdown-list,
 .wallet-adapter-button {
   font-family: inherit !important;
+}
+.bg-dark-blue{
+  background: rgb(12, 19, 121) !important;
+  color: white;
+  border-color: rgb(12, 19, 121) !important;
+}
+.main-logo{
+  height: 42px;
+}
+.navigation-links a{
+  font-size:18px;
+  font-weight: 600;
+}
+.greetings{
+  margin-top:96px;
+}
+.social-img{
+  height:56px;
+}
+.footer{
+  margin-top:42px;
+}
+.acc-btn{
+  color:white;
+}
+.space-x-2, button{
+  color: white;
+}
+.date-time{
+  font-size: 26px;
+  font-weight: 600;
+  border:solid 1px white;
+  width: 15%;
+  margin-left:auto;
+  border-top-right-radius: 1ch;
+  border-bottom-left-radius: 1ch;
+}
+.btn.btn-disabled, .btn[disabled], .btn:disabled {
+  background-color:#49499f;
+  color:white;
+}
+.btn-xs{
+  background-color:rgb(40, 43, 84) !important;
+  color:white;
+  border-color: rgb(40, 43, 84) !important;
+}
+.modal-box{
+  color:black;
+}
+
+.btn-outline{
+  color:white;
+}
+
+thead{
+  color:white !important;
+}
+
+.whitespace-nowrap.space-x-2 span{
+  color:black;
+}
+
+.bg-base-200 >.space-y-2 >.text-xs{
+  color:black;
 }

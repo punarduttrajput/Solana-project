@@ -133,7 +133,7 @@ export function AccountTokens({ address }: { address: PublicKey }) {
               <span className="loading loading-spinner"></span>
             ) : (
               <button
-                className="btn btn-sm btn-outline"
+                className="btn btn-sm btn-outline acc-btn"
                 onClick={async () => {
                   await query.refetch();
                   await client.invalidateQueries({
@@ -317,7 +317,7 @@ export function AccountTransactions({ address }: { address: PublicKey }) {
 
 function BalanceSol({ balance }: { balance: number }) {
   return (
-    <span>{Math.round((balance / LAMPORTS_PER_SOL) * 100000) / 100000}</span>
+    <span>Balance: {Math.round((balance / LAMPORTS_PER_SOL) * 100000) / 100000}</span>
   );
 }
 

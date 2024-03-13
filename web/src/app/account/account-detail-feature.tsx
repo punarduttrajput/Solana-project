@@ -46,7 +46,7 @@ export default function AccountDetailFeature() {
         </div>
       </AppHero>
       <div className="space-y-8">
-        <AccountTokens address={address} />
+        {/* <AccountTokens address={address} /> */}
         <AccountTransactions address={address} />
       </div>
     </div>

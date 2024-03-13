@@ -12,6 +12,7 @@ export default function MarkAttendanceFeature() {
 
   return publicKey ? (
     <div>
+     
       <AppHero title="Mark Attendance" subtitle={'Mark the attendance by clicking the "Mark" button.'}>
         {/* <p className="mb-6">
           <ExplorerLink path={`account/${programId}`} label={ellipsify(programId.toString())} />
@@ -19,12 +20,13 @@ export default function MarkAttendanceFeature() {
         <MarkAttendanceCreate />
       </AppHero>
       <MarkAttendanceProgram />
+      {/* <MarkAttendanceConfirmation /> */}
     </div>
   ) : (
     <div className="max-w-4xl mx-auto">
       <div className="hero py-[64px]">
         <div className="hero-content text-center">
-          <WalletButton className="btn btn-primary" />
+          <WalletButton className="btn btn-primary mark-btn" />
         </div>
       </div>
     </div>
